@@ -2,31 +2,31 @@
 **Contents**
 
 - [🧬 MSABrowser](#%f0%9f%a7%ac-msabrowser)
-	- [:hash: What is *MSABrowser* and the aim of this library?](#hash-what-is-msabrowser-and-the-aim-of-this-library)
-	- [:hash: Requirements and Installation](#hash-requirements-and-installation)
-	- [:hash: How to use *MSABrowser*?](#hash-how-to-use-msabrowser)
-	- [:hash: Parameters & Examples for the Functions](#hash-parameters--examples-for-the-functions)
-		- [:hash: Color Schemas List](#hash-color-schemas-list)
-		- [:hash: Adding Annoations (Protein Domains) & Example](#hash-adding-annoations-protein-domains--example)
-		- [:hash: Adding Variations & Example](#hash-adding-variations--example)
-	- [:hash: Example Usages (Use Cases) of *MSABrowser*](#hash-example-usages-use-cases-of-msabrowser)
-		- [:hash: Evolutionary/Comparative Genomics Study](#hash-evolutionarycomparative-genomics-study)
-		- [:hash: COVID-19 / Virology Study](#hash-covid-19--virology-study)
-		- [:hash: Do you have another study which is not listed here?](#hash-do-you-have-another-study-which-is-not-listed-here)
-	- [:hash: Contributing & Feedback](#hash-contributing--feedback)
-	- [:hash: Developers](#hash-developers)
-	- [:hash: Citing the *MSABrowser*](#hash-citing-the-msabrowser)
+	- [ What is *MSABrowser* and the aim of this library?](#hash-what-is-msabrowser-and-the-aim-of-this-library)
+	- [ Requirements and Installation](#hash-requirements-and-installation)
+	- [ How to use *MSABrowser*?](#hash-how-to-use-msabrowser)
+	- [ Parameters & Examples for the Functions](#hash-parameters--examples-for-the-functions)
+		- [ Color Schemas List](#hash-color-schemas-list)
+		- [ Adding Annoations (Protein Domains) & Example](#hash-adding-annoations-protein-domains--example)
+		- [ Adding Variations & Example](#hash-adding-variations--example)
+	- [ Example Usages (Use Cases) of *MSABrowser*](#hash-example-usages-use-cases-of-msabrowser)
+		- [ Evolutionary/Comparative Genomics Study](#hash-evolutionarycomparative-genomics-study)
+		- [ COVID-19 / Virology Study](#hash-covid-19--virology-study)
+		- [ Do you have another study which is not listed here?](#hash-do-you-have-another-study-which-is-not-listed-here)
+	- [ Contributing & Feedback](#hash-contributing--feedback)
+	- [ Developers](#hash-developers)
+	- [ Citing the *MSABrowser*](#hash-citing-the-msabrowser)
 
 ---
 
-## :hash: What is *MSABrowser* and the aim of this library?
+##  What is *MSABrowser* and the aim of this library?
 Sequence alignment (MSA) is an excellent way to visualize the similarities and differences between DNA, RNA or protein sequences, yet it is currently difficult to jointly view MSAs with genetic variants, post-translational modifications and protein domains. Here, we develop the *MSABrowser* environment that makes easy to co-visualize genetic variations, modifications (i.e. PTMs), and annotations such as protein domains on the respective positions of amino acids or nucleotides in the genomes of any organisms in pairwise or multiple genome alignments. *MSABrowser* is developed entirely in JavaScript and works on any modern web browser at any platform including Linux, Mac OS X and Windows systems without any installation. MSABrowser is also freely available for the benefit of the scientific community. 
 
 
-## :hash: Requirements and Installation
+##  Requirements and Installation
 *MSABrowser* is entirely developed in JavaScript and works on a web browser at any platform including Linux, Mac OS X and Windows systems without any installation.
 
-## :hash: How to use *MSABrowser*?
+##  How to use *MSABrowser*?
  - Create a directory and download any example listed below or use CDN links for required files on your page or clone the repository via Git using following command:
  
  	`git clone https://github.com/thekaplanlab/MSABrowser.git`
@@ -40,7 +40,7 @@ Sequence alignment (MSA) is an excellent way to visualize the similarities and d
 
 - It's ready to use and visualize now! 
 
-## :hash: Parameters & Examples for the Functions
+##  Parameters & Examples for the Functions
 | Options in the script | Description | Example |
 |--|--|--|
 | id | *It defines the ID of the element where you place MSABrowser component.* |`<section id="MSABrowserDemo"></section>` |
@@ -54,7 +54,7 @@ Sequence alignment (MSA) is an excellent way to visualize the similarities and d
 | export() | *It serves for downloading the alignment data. You can give a filename for the output into the function.* | Default name is `"MSA_export.fasta"`. 
 
 
-### :hash: Color Schemas List
+###  Color Schemas List
 
 > You need to select a color schema and put the name of the color schema into the variable:
 
@@ -78,7 +78,7 @@ Example for this:
 - `nucleotide`
 
 
-### :hash: Adding Annoations (Protein Domains) & Example
+###  Adding Annoations (Protein Domains) & Example
 
 > You are able to visualize the protein domains above the sequence aligner in the annotation part.
 
@@ -128,7 +128,7 @@ var annotations = [
 ]
 ```
 
-### :hash: Adding Variations & Example
+###  Adding Variations & Example
 
 > You are able to add variations and modifications or any types of notes on the corresponding positions.
 
@@ -164,9 +164,9 @@ var variations = [
 > 
 > `<a href="http://msabrowser.github.io" target="_blank">For details, visit here</a>`
 
-## :hash: Example Usages (Use Cases) of *MSABrowser*
+##  Example Usages (Use Cases) of *MSABrowser*
 
-### :hash: Evolutionary/Comparative Genomics Study 
+###  Evolutionary/Comparative Genomics Study 
 In this example, human TUBA1A protein and its homologous proteins are aligned and human protein domains are added. Additionaly, some genetic variations are also included from different sources such as gnomAD and ClinVar. 
 
 > [Click here to reach *MSABrowser* example for Evolutionary/Comparative Genomics Study.](https://github.com/thekaplanlab/msaviewer/blob/master/examples/TUBA1A.html)
@@ -176,7 +176,7 @@ In this example, human TUBA1A protein and its homologous proteins are aligned an
   (<a href='https://codepen.io/bilginhalil'>@bilginhalil</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
-### :hash: COVID-19 / Virology Study 
+###  COVID-19 / Virology Study 
 In this example, some available SARS-CoV-2 sequences are aligned with default options of MUSCLE and their genetic variations received from [China National Center for Bioinformation 2019 Novel Coronavirus Resource (2019nCoVR)](https://bigd.big.ac.cn/ncov/) are added.
 
 > [Click here to reach *MSABrowser* example for COVID-19 / Virology Study.](https://github.com/thekaplanlab/msaviewer/blob/master/examples/SarsCov2.html)
@@ -186,23 +186,23 @@ In this example, some available SARS-CoV-2 sequences are aligned with default op
   (<a href='https://codepen.io/bilginhalil'>@bilginhalil</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
-### :hash: Do you have another study which is not listed here?
+###  Do you have another study which is not listed here?
 Please do not hesitate to [contact us](#hash-developers) for adding your study! 
 
 We would be very happy to list your study here!
 
 
-## :hash: Contributing & Feedback
+##  Contributing & Feedback
 MSABrowser is released as an open-source and web-based software under GNU General Public License, version 3.0 (GPLv3). The visualizer, documentation, all source code and examples are available at GitHub repository https://github.com/thekaplanlab/MSABrowser.
 
 Moreover, please do not hesitate to `open an issue via Github` if you have any suggestion or feedback.
 
 
-## :hash: Developers
+##  Developers
 **Halil I. Bilgin |  [bilginhalil@gmail.com](mailto:bilginhalil@gmail.com) | Academia: [Google Scholar Profile](https://scholar.google.com/citations?user=U1jyUGkAAAAJ&hl=en&oi=ao)**
 
 
 **Furkan M. Torun |  [furkanmtorun@gmail.com](mailto:furkanmtorun@gmail.com) | Academia: [Google Scholar Profile](https://scholar.google.com/citations?user=d5ZyOZ4AAAAJ)**
 
-## :hash: Citing the *MSABrowser*
+##  Citing the *MSABrowser*
 Upcoming 
