@@ -2,20 +2,20 @@
 **Contents**
 
 - [🧬 MSABrowser](#%f0%9f%a7%ac-msabrowser)
-	- [ What is *MSABrowser* and the aim of this library?](#hash-what-is-msabrowser-and-the-aim-of-this-library)
-	- [ Requirements and Installation](#hash-requirements-and-installation)
-	- [ How to use *MSABrowser*?](#hash-how-to-use-msabrowser)
-	- [ Parameters & Examples for the Functions](#hash-parameters--examples-for-the-functions)
-		- [ Color Schemas List](#hash-color-schemas-list)
-		- [ Adding Annoations (Protein Domains) & Example](#hash-adding-annoations-protein-domains--example)
-		- [ Adding Variations & Example](#hash-adding-variations--example)
-	- [ Example Usages (Use Cases) of *MSABrowser*](#hash-example-usages-use-cases-of-msabrowser)
-		- [ Evolutionary/Comparative Genomics Study](#hash-evolutionarycomparative-genomics-study)
-		- [ COVID-19 / Virology Study](#hash-covid-19--virology-study)
-		- [ Do you have another study which is not listed here?](#hash-do-you-have-another-study-which-is-not-listed-here)
-	- [ Contributing & Feedback](#hash-contributing--feedback)
-	- [ Developers](#hash-developers)
-	- [ Citing the *MSABrowser*](#hash-citing-the-msabrowser)
+	- [ What is *MSABrowser* and the aim of this library?](#what-is-msabrowser-and-the-aim-of-this-library)
+	- [ Requirements and Installation](#requirements-and-installation)
+	- [ How to use *MSABrowser*?](#how-to-use-msabrowser)
+	- [ Parameters & Examples for the Functions](#parameters--examples-for-the-functions)
+		- [ Color Schemas List](#color-schemas-list)
+		- [ Adding Annoations (Protein Domains) & Example](#adding-annoations-protein-domains--example)
+		- [ Adding Variations & Example](#adding-variations--example)
+	- [ Example Usages (Use Cases) of *MSABrowser*](#example-usages-use-cases-of-msabrowser)
+		- [ Evolutionary/Comparative Genomics Study](#evolutionarycomparative-genomics-study)
+		- [ COVID-19 / Virology Study](#covid-19--virology-study)
+		- [ Do you have another study which is not listed here?](#do-you-have-another-study-which-is-not-listed-here)
+	- [ Contributing & Feedback](#contributing--feedback)
+	- [ Developers](#developers)
+	- [ Citing the *MSABrowser*](#citing-the-msabrowser)
 
 ---
 
@@ -187,7 +187,7 @@ In this example, some available SARS-CoV-2 sequences are aligned with default op
 </iframe>
 
 ###  Do you have another study which is not listed here?
-Please do not hesitate to [contact us](#hash-developers) for adding your study! 
+Please do not hesitate to [contact us](#developers) for adding your study! 
 
 We would be very happy to list your study here!
 
