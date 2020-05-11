@@ -2,5 +2,6 @@ theme: jekyll-theme-cayman
 title: MSABrowser
 show_downloads: true
 github:
+  is_project_page: true
   repository_url: https://github.com/msabrowser/msabrowser
   zip_url: https://github.com/msabrowser/msabrowser/archive/master.zip
