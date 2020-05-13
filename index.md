@@ -12,6 +12,7 @@
 	- [ Example Usages (Use Cases) of *MSABrowser*](#example-usages-use-cases-of-msabrowser)
 		- [ Evolutionary/Comparative Genomics Study](#evolutionarycomparative-genomics-study)
 		- [ COVID-19 / Virology Study](#covid-19--virology-study)
+		- [ Spike Proteins Example](#spike-proteins-example)
 		- [ Do you have another study which is not listed here?](#do-you-have-another-study-which-is-not-listed-here)
 	- [ Contributing & Feedback](#contributing--feedback)
 	- [ Developers](#developers)
@@ -29,10 +30,15 @@ Sequence alignment (MSA) is an excellent way to visualize the similarities and d
 ##  How to use *MSABrowser*?
  - Create a directory and download any example listed below or use CDN links for required files on your page or clone the repository via Git using following command:
  
- 	`git clone https://github.com/thekaplanlab/MSABrowser.git`
+ 	`git clone https://github.com/msabrowser/msabrowser.git`
 
-> CDN links for JS and CSS files will be added here!
-
+> CDN Links:
+>
+> JS: https://cdn.jsdelivr.net/gh/msabrowser/msabrowser/javascript/msabrowser.js
+> 
+> CSS: https://cdn.jsdelivr.net/gh/msabrowser/msabrowser/css/style.css
+> 
+> You can directly import them into your HTML file!
 
 - Then, place your pairwise or multiple sequence alignment (MSA) result file as **FASTA** format in the folder.
 
@@ -44,14 +50,14 @@ Sequence alignment (MSA) is an excellent way to visualize the similarities and d
 | Options in the script | Description | Example |
 |--|--|--|
 | id | *It defines the ID of the element where you place MSABrowser component.* |`<section id="MSABrowserDemo"></section>` |
-| fasta | *It refers a variable that holds your sequence alignment or the name of the file in FASTA format* | `sample_msa.txt` or `sample_msa.fasta`
-| hasConsensus  | It asks whether you would like to display the consensus sequence or not. | Please state as either `true` or `false`.
-| title | *It defines the title of MSABrowser component on the box at the top left corner* | HARS Protein
-| annotations  | *It refers a variable that holds your annotations such as protein domains.* | Please check the example below.
-| variations | *It serves for adding variations on the corresponding positions.* | Please check the example below.
-| colorSchema  | *It defines the name of the color schema you would like to display.* | Please the check the list of color schemas below.
-| scrollToPosition() | *It enables addressing a specific position in a species.* | Please, give the `sequenceIndex` and `position` into the `scrollToPosition(sequenceIndex, position)` function, respectively.
-| export() | *It serves for downloading the alignment data. You can give a filename for the output into the function.* | Default name is `"MSA_export.fasta"`. 
+| fasta | *It refers a variable that holds your sequence alignment or the name of the file in FASTA format* | `sample_msa.txt` or `sample_msa.fasta` |
+| hasConsensus  | It asks whether you would like to display the consensus sequence or not. | Please state as either `true` or `false`. |
+| title | *It defines the title of MSABrowser component on the box at the top left corner* | HARS Protein |
+| annotations  | *It refers a variable that holds your annotations such as protein domains.* | Please check the example below. |
+| variations | *It serves for adding variations on the corresponding positions.* | Please check the example below. |
+| colorSchema  | *It defines the name of the color schema you would like to display.* | Please the check the list of color schemas below. |
+| scrollToPosition() | *It enables addressing a specific position in a species.* | Please, give the `sequenceIndex` and `position` into the `scrollToPosition(sequenceIndex, position)` function, respectively. |
+| export() | *It serves for downloading the alignment data. You can give a filename for the output into the function.* | Default name is `"MSA_export.fasta"`. |
 
 
 ###  Color Schemas List
@@ -186,6 +192,12 @@ In this example, some available SARS-CoV-2 sequences are aligned with default op
   (<a href='https://codepen.io/bilginhalil'>@bilginhalil</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
+### :hash: Spike Proteins Example
+In this example, spike proteins are retrieved and aligned. Additionaly, some genetic variations and modifications are also added.
+
+> [Click here to reach *MSABrowser* example for Spike Proteins.](https://github.com/msabrowser/msabrowser/blob/master/examples/SpikeProteins.html)
+
+
 ###  Do you have another study which is not listed here?
 Please do not hesitate to [contact us](#developers) for adding your study! 
 
@@ -193,7 +205,7 @@ We would be very happy to list your study here!
 
 
 ##  Contributing & Feedback
-MSABrowser is released as an open-source and web-based software under GNU General Public License, version 3.0 (GPLv3). The visualizer, documentation, all source code and examples are available at GitHub repository https://github.com/thekaplanlab/MSABrowser.
+MSABrowser is released as an open-source and web-based software under GNU General Public License, version 3.0 (GPLv3). The visualizer, documentation, all source code and examples are available at GitHub repository [https://github.com/msabrowser/MSABrowser](https://github.com/msabrowser/MSABrowser).
 
 Moreover, please do not hesitate to `open an issue via Github` if you have any suggestion or feedback.
 
