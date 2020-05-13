@@ -21,7 +21,9 @@
 ---
 
 ##  What is *MSABrowser* and the aim of this library?
-Sequence alignment (MSA) is an excellent way to visualize the similarities and differences between DNA, RNA or protein sequences, yet it is currently difficult to jointly view MSAs with genetic variants, post-translational modifications and protein domains. Here, we develop the *MSABrowser* environment that makes easy to co-visualize genetic variations, modifications (i.e. PTMs), and annotations such as protein domains on the respective positions of amino acids or nucleotides in the genomes of any organisms in pairwise or multiple genome alignments. *MSABrowser* is developed entirely in JavaScript and works on any modern web browser at any platform including Linux, Mac OS X and Windows systems without any installation. MSABrowser is also freely available for the benefit of the scientific community. 
+Sequence alignment is an excellent way to visualize the similarities and differences between DNA, RNA or protein sequences, yet it is currently difficult to jointly view sequence alignment data with genetic variations, modifications such as post-translational modifications and annotations (i.e.protein domains). 
+
+Here, we develop the MSABrowser tool that makes easy to co-visualize genetic variations, modifications, and annotations on the respective positions of amino acids or nucleotides in the genomes of any organisms in pairwise or multiple sequence alignments. MSABrowser is developed entirely in JavaScript and works on any modern web browser at any platform including Linux, Mac OS X and Windows systems without any installation. MSABrowser is also freely available for the benefit of the scientific community.  
 
 
 ##  Requirements and Installation
@@ -42,7 +44,7 @@ Sequence alignment (MSA) is an excellent way to visualize the similarities and d
 
 - Then, place your pairwise or multiple sequence alignment (MSA) result file as **FASTA** format in the folder.
 
-- Afterwards, set your parameters and define the title, specify the annotations such as protein domains and add your variants. 
+- Afterwards, set your parameters and define the title, specify the annotations such as protein domains and add your variations. 
 
 - It's ready to use and visualize now! 
 
@@ -166,7 +168,7 @@ var variations = [
 
 > Here, this variation will be added onto the `5th` position in the sequnce of `2nd` species in the alignment data with a note of "`M->A : Pathogenic and causes a disease with a name of X`" and source of "`Surname et. al (2020)`". 
 
-> In addition, if you state the `source` as `"modification"` (post-translational modification), it also will be notified as `red asterisk` in the viewer.
+> In addition, if you state the `source` as `"modification"` (i.e. post-translational modification), it also will be notified as `red asterisk` in the viewer.
 
 > Also, you might want to add a cross-reference link by adding it within the `note` after changing the link in `href` attribute:
 > 
