@@ -47,6 +47,8 @@ Sequence alignment (MSA) is an excellent way to visualize the similarities and d
 - It's ready to use and visualize now! 
 
 ##  Parameters & Examples for the Functions
+
+
 | Options in the script | Description | Example |
 |-----------------------|---------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
 | id | *It defines the ID of the element where you place MSABrowser component.* |`<section id="MSABrowserDemo"></section>` |
