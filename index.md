@@ -181,7 +181,7 @@ In this example, human TUBA1A protein and its homologous proteins are aligned an
 
 > [Click here to reach *MSABrowser* example for Evolutionary/Comparative Genomics Study.](https://github.com/thekaplanlab/msaviewer/blob/master/examples/TUBA1A.html)
 
-<iframe height="565" style="width: 100%;" scrolling="no" title="MSABrowser | TUBA1A" src="https://codepen.io/bilginhalil/embed/NWGzgdy?height=565&theme-id=dark&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+<iframe height="565" style="width: 100%;" scrolling="no" title="MSABrowser | TUBA1A" src="https://codepen.io/bilginhalil/embed/NWGzgdy?height=565&theme-id=light&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/bilginhalil/pen/NWGzgdy'>MSABrowser | TUBA1A</a> by halil bilgin
   (<a href='https://codepen.io/bilginhalil'>@bilginhalil</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
@@ -191,7 +191,7 @@ In this example, some available SARS-CoV-2 sequences are aligned with default op
 
 > [Click here to reach *MSABrowser* example for COVID-19 / Virology Study.](https://github.com/thekaplanlab/msaviewer/blob/master/examples/SarsCov2.html)
 
-<iframe height="565" style="width: 100%;" scrolling="no" title="MSABrowser | SARS - CoV-2 Example" src="https://codepen.io/bilginhalil/embed/QWjxgwa?height=565&theme-id=dark&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+<iframe height="565" style="width: 100%;" scrolling="no" title="MSABrowser | SARS - CoV-2 Example" src="https://codepen.io/bilginhalil/embed/QWjxgwa?height=565&theme-id=light&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/bilginhalil/pen/QWjxgwa'>MSABrowser | SARS - CoV-2 Example</a> by halil bilgin
   (<a href='https://codepen.io/bilginhalil'>@bilginhalil</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
