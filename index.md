@@ -201,6 +201,7 @@ In this example, spike proteins are retrieved and aligned. Additionaly, some gen
 
 > [Click here to reach *MSABrowser* example for Spike Proteins.](https://github.com/msabrowser/msabrowser/blob/master/examples/SpikeProteins.html)
 
+<iframe height="614" style="width: 100%;" scrolling="no" title="MSABrowser | Spike Proteins" src="https://codepen.io/bilginhalil/embed/JjYBBGz?height=614&theme-id=light&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true"> See the Pen MSABrowser | Spike Proteins by halil bilgin @bilginhalil) on CodePen</iframe>
 
 ###  Do you have another study which is not listed here?
 Please do not hesitate to [contact us](#developers) for adding your study! 
