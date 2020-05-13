@@ -48,11 +48,11 @@ Sequence alignment (MSA) is an excellent way to visualize the similarities and d
 
 ##  Parameters & Examples for the Functions
 | Options in the script | Description | Example |
-|--|--|--|
+|-----------------------|---------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
 | id | *It defines the ID of the element where you place MSABrowser component.* |`<section id="MSABrowserDemo"></section>` |
 | fasta | *It refers a variable that holds your sequence alignment or the name of the file in FASTA format* | `sample_msa.txt` or `sample_msa.fasta` |
 | hasConsensus  | It asks whether you would like to display the consensus sequence or not. | Please state as either `true` or `false`. |
-| title | *It defines the title of MSABrowser component on the box at the top left corner* | HARS Protein |
+| title | *It defines the title of MSABrowser component on the box at the top left corner* | TUBA1A Protein |
 | annotations  | *It refers a variable that holds your annotations such as protein domains.* | Please check the example below. |
 | variations | *It serves for adding variations on the corresponding positions.* | Please check the example below. |
 | colorSchema  | *It defines the name of the color schema you would like to display.* | Please the check the list of color schemas below. |
@@ -192,7 +192,7 @@ In this example, some available SARS-CoV-2 sequences are aligned with default op
   (<a href='https://codepen.io/bilginhalil'>@bilginhalil</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
-### :hash: Spike Proteins Example
+### Spike Proteins Example
 In this example, spike proteins are retrieved and aligned. Additionaly, some genetic variations and modifications are also added.
 
 > [Click here to reach *MSABrowser* example for Spike Proteins.](https://github.com/msabrowser/msabrowser/blob/master/examples/SpikeProteins.html)
@@ -205,7 +205,7 @@ We would be very happy to list your study here!
 
 
 ##  Contributing & Feedback
-MSABrowser is released as an open-source and web-based software under GNU General Public License, version 3.0 (GPLv3). The visualizer, documentation, all source code and examples are available at GitHub repository [https://github.com/msabrowser/MSABrowser](https://github.com/msabrowser/MSABrowser).
+MSABrowser is released as an open-source and web-based software under GNU General Public License, version 3.0 (GPLv3). The visualizer, documentation, all source code and examples are available on [https://msabrowser.github.io/](https://msabrowser.github.io/) and at GitHub repository [https://github.com/msabrowser/MSABrowser](https://github.com/msabrowser/MSABrowser).
 
 Moreover, please do not hesitate to `open an issue via Github` if you have any suggestion or feedback.
 
