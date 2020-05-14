@@ -36,9 +36,9 @@ Here, we develop the MSABrowser tool that makes easy to co-visualize genetic var
 
 > CDN Links:
 >
-> JS: https://cdn.jsdelivr.net/gh/msabrowser/msabrowser/javascript/msabrowser.js
+> JS: [https://cdn.jsdelivr.net/gh/msabrowser/msabrowser/javascript/msabrowser.js](https://cdn.jsdelivr.net/gh/msabrowser/msabrowser/javascript/msabrowser.js)
 > 
-> CSS: https://cdn.jsdelivr.net/gh/msabrowser/msabrowser/css/style.css
+> CSS: [https://cdn.jsdelivr.net/gh/msabrowser/msabrowser/css/style.css](https://cdn.jsdelivr.net/gh/msabrowser/msabrowser/css/style.css)
 > 
 > You can directly import them into your HTML file!
 
