@@ -215,6 +215,9 @@ Moreover, please do not hesitate to `open an issue via Github` if you have any s
 
 
 ##  Developers
+
+**Oktay Kaplan | [oktaykaplan@gmail.com](mailto:oktaykaplan@gmail.com) | Academia: [Google Scholar Profile](https://scholar.google.com/citations?user=YFzvQQUAAAAJ&hl=en)**
+
 **Halil I. Bilgin |  [bilginhalil@gmail.com](mailto:bilginhalil@gmail.com) | 
 Academia: [Google Scholar Profile](https://scholar.google.com/citations?user=U1jyUGkAAAAJ&hl=en&oi=ao)**
 
