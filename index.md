@@ -11,7 +11,7 @@
 		- [ Adding Variations & Example](#adding-variations--example)
 	- [ Example Usages (Use Cases) of *MSABrowser*](#example-usages-use-cases-of-msabrowser)
 		- [ Evolutionary/Comparative Genomics Study](#evolutionarycomparative-genomics-study)
-		- [ NIPBL Protein Homologs Study](#NIPBL_Protein_Homologs_Study)
+		- [ NIPBL Protein Homologs Study](#nipbl-protein-homologs-study)
 		- [ COVID-19 / Virology Study](#covid-19--virology-study)
 		- [ Spike Proteins Example](#spike-proteins-example)
 		- [ Do you have another study which is not listed here?](#do-you-have-another-study-which-is-not-listed-here)
@@ -181,7 +181,7 @@ In this example, human TUBA1A protein and its homologous proteins are aligned an
 
 > [Click here to reach *MSABrowser* example for Evolutionary/Comparative Genomics Study.](https://github.com/msabrowser/msabrowser/blob/master/examples/TUBA1A.html)
 
-<iframe height="600" style="width: 100%;" scrolling="no" title="MSABrowser | TUBA1A" src="https://codepen.io/bilginhalil/embed/NWGzgdy?height=600&theme-id=light&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+<iframe height="620" style="width: 100%;" scrolling="no" title="MSABrowser | TUBA1A" src="https://codepen.io/bilginhalil/embed/NWGzgdy?height=620&theme-id=light&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/bilginhalil/pen/NWGzgdy'>MSABrowser | TUBA1A</a> by halil bilgin
   (<a href='https://codepen.io/bilginhalil'>@bilginhalil</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
