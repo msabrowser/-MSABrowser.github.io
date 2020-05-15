@@ -11,6 +11,7 @@
 		- [ Adding Variations & Example](#adding-variations--example)
 	- [ Example Usages (Use Cases) of *MSABrowser*](#example-usages-use-cases-of-msabrowser)
 		- [ Evolutionary/Comparative Genomics Study](#evolutionarycomparative-genomics-study)
+		- [ NIPBL Protein Homologs Study](#NIPBL_Protein_Homologs_Study)
 		- [ COVID-19 / Virology Study](#covid-19--virology-study)
 		- [ Spike Proteins Example](#spike-proteins-example)
 		- [ Do you have another study which is not listed here?](#do-you-have-another-study-which-is-not-listed-here)
@@ -180,10 +181,19 @@ In this example, human TUBA1A protein and its homologous proteins are aligned an
 
 > [Click here to reach *MSABrowser* example for Evolutionary/Comparative Genomics Study.](https://github.com/msabrowser/msabrowser/blob/master/examples/TUBA1A.html)
 
-<iframe height="565" style="width: 100%;" scrolling="no" title="MSABrowser | TUBA1A" src="https://codepen.io/bilginhalil/embed/NWGzgdy?height=565&theme-id=light&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+<iframe height="600" style="width: 100%;" scrolling="no" title="MSABrowser | TUBA1A" src="https://codepen.io/bilginhalil/embed/NWGzgdy?height=600&theme-id=light&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/bilginhalil/pen/NWGzgdy'>MSABrowser | TUBA1A</a> by halil bilgin
   (<a href='https://codepen.io/bilginhalil'>@bilginhalil</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
+
+### NIPBL Protein Homologs Study
+In this example, human NIPBL protein and its homologous sequences are aligned and human sequence annotations are added.
+Additionaly, some genetic variations are also included from available sources.
+
+> [Click here to reach *MSABrowser* example for NIPBL Protein Homologs Study.](https://github.com/msabrowser/msabrowser/blob/master/examples/NIPBL.html)
+
+<iframe height="748" style="width: 100%;" scrolling="no" title="MSABrowser | NIPBL" src="https://codepen.io/bilginhalil/embed/bGVxJGY?height=748&theme-id=light&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen MSABrowser | NIPBL by halil bilgin @bilginhalil) on CodePen.</iframe>
 
 ###  COVID-19 / Virology Study 
 In this example, some available SARS-CoV-2 sequences are aligned with default options of MUSCLE and their genetic variations received from [China National Center for Bioinformation 2019 Novel Coronavirus Resource (2019nCoVR)](https://bigd.big.ac.cn/ncov/) are added.
