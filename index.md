@@ -8,7 +8,7 @@
 	- [ Parameters & Examples for the Functions](#parameters--examples-for-the-functions)
 		- [ Color Schemas List](#color-schemas-list)
 		- [ Adding Annoations (Protein Domains) & Example](#adding-annoations-protein-domains--example)
-		- [ Adding Variations & Example](#adding-variations--example)
+		- [ Adding Variations and Modifications & Example](#adding-variations-and-modifications--example)
 	- [ Example Usages (Use Cases) of *MSABrowser*](#example-usages-use-cases-of-msabrowser)
 		- [ Evolutionary/Comparative Genomics Study](#evolutionarycomparative-genomics-study)
 		- [ NIPBL Protein Homologs Study](#nipbl-protein-homologs-study)
@@ -56,9 +56,8 @@ More details are available on our pre-print!
 | id | *It defines the ID of the element where you place MSABrowser component.* |`<section id="MSABrowserDemo"></section>` |
 | fasta | *It refers a variable that holds your sequence alignment or the name of the file in FASTA format* | `sample_msa.txt` or `sample_msa.fasta` |
 | hasConsensus  | It asks whether you would like to display the consensus sequence or not. | Please state as either `true` or `false`. |
-| title | *It defines the title of MSABrowser component on the box at the top left corner* | TUBA1A Protein |
 | annotations  | *It refers a variable that holds your annotations such as protein domains.* | Please check the example below. |
-| variations | *It serves for adding variations on the corresponding positions.* | Please check the example below. |
+| alterations | *It serves for adding variations and modifications on the corresponding positions.* | Please check the example below. |
 | colorSchema  | *It defines the name of the color schema you would like to display.* | Please the check the list of color schemas below. |
 | scrollToPosition() | *It enables addressing a specific position in a species.* | Please, give the `sequenceIndex` and `position` into the `scrollToPosition(sequenceIndex, position)` function, respectively. |
 | export() | *It serves for downloading the alignment data. You can give a filename for the output into the function.* | Default name is `"MSA_export.fasta"`. |
@@ -138,25 +137,26 @@ var annotations = [
 ]
 ```
 
-###  Adding Variations & Example
+###  Adding Variations and Modifications & Example
 
 > You are able to add variations and modifications or any types of notes on the corresponding positions.
 
-**Here is the details for use of `variations` :**
+**Here is the details for use of `alterations` :**
 
 
 | Key | Description | Example |
 |---------------------------------------------------|--------------------------------------------------------|----------------------------------------------------------|
-| protein | The order of the species in the sequence alignment | 1 |
+| sequenceIndex | The order of the species in the sequence alignment | 1 |
 | position | The (real) position of the amino acid in the protein.* | 5 |
 | note | The annotation part for this position. | M->A : Pathogenic and causes a disease with a name of X. |
 | source | The source of the information. | Surname et. al (2020) |
+| type | *The type of the alteration: Variation or modification* | If it is modficiation, state as `Alteration.Modification`. |
 
 
 
-**Here is the example how to add a variation:**
+**Here is the example how to add a variation or modification:**
 ```
-var variations = [
+var alterations = [
 	{
 		'sequenceIndex': 2, 
 		'position': 5, 
@@ -168,7 +168,7 @@ var variations = [
 
 > Here, this variation will be added onto the `5th` position in the sequnce of `2nd` species in the alignment data with a note of "`M->A : Pathogenic and causes a disease with a name of X`" and source of "`Surname et. al (2020)`". 
 
-> In addition, if you state the `source` as `"modification"` (i.e. post-translational modification), it also will be notified as `red asterisk` in the viewer.
+> In addition, if you state the `type` as `Alteration.Modification` (i.e. post-translational modification), it also will be notified as `red asterisk` in the viewer.
 
 > Also, you might want to add a cross-reference link by adding it within the `note` after changing the link in `href` attribute:
 > 
