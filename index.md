@@ -22,9 +22,10 @@
 ---
 
 ##  What is *MSABrowser* and the aim of this library?
-MSABrowser is developed as a new JavaScript tool with an ultimate goal of dynamic and fast visualization of sequence alignments, variations, and annotations. Also, it does not require any installation at any platform such as Linux, Mac OS X, and Windows. MSABrowser was created at [Kaplan Lab](http://www.kaplanlab.com/)
+MSABrowser is developed as a new JavaScript tool with an ultimate goal of dynamic and fast visualization of sequence alignments, variations, and annotations. Also, it does not require any installation at any platform such as Linux, Mac OS X, and Windows. 
 
-More details are available on our pre-print!
+## Screenshot
+![MSABrowser](https://user-images.githubusercontent.com/65191506/85929432-7e914200-b8bd-11ea-85da-c00e07728856.png)
 
 ##  Requirements and Installation
 *MSABrowser* is entirely developed in JavaScript and works on a web browser at any platform including Linux, Mac OS X and Windows systems without any installation.
@@ -225,8 +226,6 @@ Moreover, please do not hesitate to `open an issue via Github` if you have any s
 
 
 ##  Developers
-
-**Oktay Kaplan | [oktaykaplan@gmail.com](mailto:oktaykaplan@gmail.com) | Academia: [Google Scholar Profile](https://scholar.google.com/citations?user=YFzvQQUAAAAJ&hl=en)**
 
 **Halil I. Bilgin |  [bilginhalil@gmail.com](mailto:bilginhalil@gmail.com) | 
 Academia: [Google Scholar Profile](https://scholar.google.com/citations?user=U1jyUGkAAAAJ&hl=en&oi=ao)**
