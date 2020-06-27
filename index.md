@@ -25,7 +25,7 @@
 MSABrowser is developed as a new JavaScript tool with an ultimate goal of dynamic and fast visualization of sequence alignments, variations, and annotations. Also, it does not require any installation at any platform such as Linux, Mac OS X, and Windows. 
 
 ## Screenshot
-![MSABrowser](https://user-images.githubusercontent.com/65191506/85929432-7e914200-b8bd-11ea-85da-c00e07728856.png)
+![MSABrowser](https://user-images.githubusercontent.com/65191506/85929485-024b2e80-b8be-11ea-974e-3af112948f28.png)
 
 ##  Requirements and Installation
 *MSABrowser* is entirely developed in JavaScript and works on a web browser at any platform including Linux, Mac OS X and Windows systems without any installation.
