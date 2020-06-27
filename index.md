@@ -3,6 +3,7 @@
 
 - [🧬 MSABrowser](#%f0%9f%a7%ac-msabrowser)
 	- [ What is *MSABrowser* and the aim of this library?](#what-is-msabrowser-and-the-aim-of-this-library)
+	- [ Screenshot](#screenshot)
 	- [ Requirements and Installation](#requirements-and-installation)
 	- [ How to use *MSABrowser*?](#how-to-use-msabrowser)
 	- [ Parameters & Examples for the Functions](#parameters--examples-for-the-functions)
