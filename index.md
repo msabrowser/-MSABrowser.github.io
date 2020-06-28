@@ -52,7 +52,7 @@ As seen in the figure, there are main parts in *MSABrowser*, which are represent
 	
 ## Feature Comparison Table
 | Features / Tools | MSABrowser | Plotly Needle Plot | MSAViewer | Jalview 2 Desktop | JSAV | AlignmentViewer | ProViz | Wasabi |
-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|---|---|---|---|---|---|---|---|---|
 | **OVERALL** |  |  |  |  |  |  |  |  |
 | Publication Date | Not yet | 2019 | 13 July 2016 | 16 January 2009 | 23 October 2014 | 22 February 2018 | 16 April 2016 | 03 December 2015 |
 | Last updated date* | 13 May 2020 | 27 March 2020 | 29 January 2018 | 22 April 2020 | 4 September 2019 | 15 August 2019 | 9 December 2016 | 05 February 2020 |
