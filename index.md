@@ -4,6 +4,7 @@
 - [🧬 MSABrowser](#%f0%9f%a7%ac-msabrowser)
 	- [ What is *MSABrowser* and the aim of this library?](#what-is-msabrowser-and-the-aim-of-this-library)
 	- [ Screenshot](#screenshot)
+	- [ Feature Comparison Table](#feature-comparison-table)
 	- [ Requirements and Installation](#requirements-and-installation)
 	- [ How to use *MSABrowser*?](#how-to-use-msabrowser)
 	- [ Parameters & Examples for the Functions](#parameters--examples-for-the-functions)
@@ -48,7 +49,6 @@ As seen in the figure, there are main parts in *MSABrowser*, which are represent
 - D: Search/options part
 
 	It enables you to search in the alignment data, download the PSA or MSA as FASTA format and Reset the browser.
-	
 
 ##  Requirements and Installation
 *MSABrowser* is entirely developed in JavaScript and works on a web browser at any platform including Linux, Mac OS X and Windows systems without any installation.
@@ -79,7 +79,7 @@ As seen in the figure, there are main parts in *MSABrowser*, which are represent
 |-----------------------|---------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
 | id | *It defines the ID of the element where you place MSABrowser component.* |`<section id="MSABrowserDemo"></section>` |
 | fasta | *It refers a variable that holds your sequence alignment or the name of the file in FASTA format* | `sample_msa.txt` or `sample_msa.fasta` |
-| hasConsensus  | It asks whether you would like to display the consensus sequence or not. | Please state as either `true` or `false`. |
+| hasConsensus  | *It asks whether you would like to display the consensus sequence or not.* | Please state as either `true` or `false`. |
 | annotations  | *It refers a variable that holds your annotations such as protein domains.* | Please check the example below. |
 | alterations | *It serves for adding variations and modifications on the corresponding positions.* | Please check the example below. |
 | colorSchema  | *It defines the name of the color schema you would like to display.* | Please the check the list of color schemas below. |
@@ -133,7 +133,7 @@ var annotations = [
 			{
 				'annotation_id': 'SecondAnnotationID',
 				'annotation_name': 'SecondAnnotationName',
-				'annotation_external_link': 'https://kaplanlab.com',
+				'annotation_external_link': 'https://msabrowser.github.io',
 				'annotation_start_point': 450,
 				'annotation_end_point': 570
 			}
@@ -152,7 +152,7 @@ var annotations = [
 			{
 				'annotation_id': 'SecondAnnotationID',
 				'annotation_name': 'SecondAnnotationName',
-				'annotation_external_link': 'http://kaplanlab.com',
+				'annotation_external_link': 'https://msabrowser.github.io',
 				'annotation_start_point': 250,
 				'annotation_end_point': 490
 			}
@@ -250,10 +250,10 @@ Moreover, please do not hesitate to `open an issue via Github` if you have any s
 
 ##  Developers
 
-**Halil I. Bilgin |  [bilginhalil@gmail.com](mailto:bilginhalil@gmail.com) | 
+**Halil I. Bilgin ([@halilbilgin](https://github.com/halilbilgin)) |  [bilginhalil@gmail.com](mailto:bilginhalil@gmail.com) | 
 Academia: [Google Scholar Profile](https://scholar.google.com/citations?user=U1jyUGkAAAAJ&hl=en&oi=ao)**
 
-**Furkan M. Torun |  [furkanmtorun@gmail.com](mailto:furkanmtorun@gmail.com) |
+**Furkan M. Torun ([@furkanmtorun](http://github.com/furkanmtorun)) |  [furkanmtorun@gmail.com](mailto:furkanmtorun@gmail.com) |
 Academia: [Google Scholar Profile](https://scholar.google.com/citations?user=d5ZyOZ4AAAAJ)**
 
 ##  Citing the *MSABrowser*
