@@ -25,8 +25,30 @@
 ##  What is *MSABrowser* and the aim of this library?
 MSABrowser is developed as a new JavaScript tool with an ultimate goal of dynamic and fast visualization of sequence alignments, variations, and annotations. Also, it does not require any installation at any platform such as Linux, Mac OS X, and Windows. 
 
+*MSABrowser* is able to import pairwise sequence alignment (PSA) and multiple sequence alignment (MSA) data in FASTA format, and variations and sequence annotations in the format of JSON (JavaScript Object Notation). 
+
+For the nucleotides or amino acids that are annotated, one can hover them for triggering a pop-up that shows the details of variations and modifications or any other provided notes for the position. 
+
 ## Screenshot
-![MSABrowser](https://user-images.githubusercontent.com/65191506/85929485-024b2e80-b8be-11ea-974e-3af112948f28.png)
+![MSABrowser](https://user-images.githubusercontent.com/65191506/85941261-876c2d00-b92a-11ea-8366-30a2bcd464c9.png)
+
+As seen in the figure, there are main parts in *MSABrowser*, which are represented as A, B, C and D.
+
+- A: Annotation part
+
+	It represents the sequence intervals/annotations (such as protein domains) given by users. 
+	
+- B: Notification part
+
+	It represents the modifications (with red asterisks) and position numbers.
+- C: Sequence alignment part
+
+	It represents the alignment data. Here, hovering a nucleotide or amino acid triggers a pop-up for showing the details of notes, annotations.
+	
+- D: Search/options part
+
+	It enables you to search in the alignment data, download the PSA or MSA as FASTA format and Reset the browser.
+	
 
 ##  Requirements and Installation
 *MSABrowser* is entirely developed in JavaScript and works on a web browser at any platform including Linux, Mac OS X and Windows systems without any installation.
