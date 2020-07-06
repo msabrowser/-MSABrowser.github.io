@@ -50,6 +50,7 @@ As seen in the figure, there are main parts in *MSABrowser*, which are represent
 	It enables you to search in the alignment data, download the PSA or MSA as FASTA format and Reset the browser.
 	
 ## Feature Comparison Table
+
 | Features / Tools | MSABrowser | Plotly Needle Plot | MSAViewer | Jalview 2 Desktop | JSAV | AlignmentViewer | ProViz | Wasabi |
 |---|---|---|---|---|---|---|---|---|
 | **OVERALL** |  |  |  |  |  |  |  |  |
