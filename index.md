@@ -55,7 +55,6 @@ As seen in the figure, there are main parts in *MSABrowser*, which are represent
 |---|---|---|---|---|---|---|---|---|
 | **OVERALL** |  |  |  |  |  |  |  |  |
 | Publication Date | Not yet | 2019 | 13 July 2016 | 16 January 2009 | 23 October 2014 | 22 February 2018 | 16 April 2016 | 03 December 2015 |
-| Last updated date* | 13 May 2020 | 27 March 2020 | 29 January 2018 | 22 April 2020 | 4 September 2019 | 15 August 2019 | 9 December 2016 | 05 February 2020 |
 | Programing language | JavaScript | JavaScript, Python  | JavaScript | Java | JavaScript | Java | JavaScript | JavaScript, Python  |
 | Requirements | Browser | Browser | Browser | Desktop installation | Browser | Browser | Browser | Browser |
 | Extendable API by a developer | Available | Available | Available | Not available | Available | Not available | Not available | Available |
@@ -76,10 +75,6 @@ As seen in the figure, there are main parts in *MSABrowser*, which are represent
 | Hiding rows | Available | Not available | Available | Available | Available | Available | Available | Available |
 | Consensus | Available | Not available | Available | Available | Not available | Available | Not available | Not available |
 | Linking the identifiers to the resources | Ensembl, UniProtKB, NCBI | Not available | UniProtKB, GenBank | EMBL-EBI | Not available | UniProtKB, Pfam | UniProtKB | Not available |
-
-> NOTES: 
->
-> * Last updated dates are considered as date of the last commit or latest update/post in their website.
 
 ##  Requirements and Installation
 *MSABrowser* is entirely developed in JavaScript and works on a web browser at any platform including Linux, Mac OS X and Windows systems without any installation.
