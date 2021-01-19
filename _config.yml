@@ -3,6 +3,6 @@ title: MSABrowser
 show_downloads: true
 github:
   is_project_page: true
-  repository_url: https://github.com/msabrowser/msabrowser
-  zip_url: https://github.com/msabrowser/msabrowser/archive/master.zip
-  tar_url: https://github.com/msabrowser/msabrowser/tarball/master
+  repository_url: https://github.com/thekaplanlab/msabrowser
+  zip_url: https://github.com/thekaplanlab/msabrowser/archive/master.zip
+  tar_url: https://github.com/thekaplanlab/msabrowser/tarball/master
