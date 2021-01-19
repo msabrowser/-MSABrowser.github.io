@@ -152,14 +152,14 @@ var annotations = [
             {
                 'annotation_id': 'AnnotationID',
                 'annotation_name': 'AnnotationName',
-                'annotation_external_link': 'https://msabrowser.github.io',
+                'annotation_external_link': 'https://thekaplanlab.github.io',
                 'annotation_start_point': 15,
                 'annotation_end_point': 290
             },
             {
                 'annotation_id': 'SecondAnnotationID',
                 'annotation_name': 'SecondAnnotationName',
-                'annotation_external_link': 'https://msabrowser.github.io',
+                'annotation_external_link': 'https://thekaplanlab.github.io',
                 'annotation_start_point': 450,
                 'annotation_end_point': 570
             }
@@ -171,14 +171,14 @@ var annotations = [
             {
                 'annotation_id': 'AnnotationID',
                 'annotation_name': 'AnnotationName',
-                'annotation_external_link': 'https://msabrowser.github.io',
+                'annotation_external_link': 'https://thekaplanlab.github.io',
                 'annotation_start_point': 25,
                 'annotation_end_point': 160
             },
             {
                 'annotation_id': 'SecondAnnotationID',
                 'annotation_name': 'SecondAnnotationName',
-                'annotation_external_link': 'https://msabrowser.github.io',
+                'annotation_external_link': 'https://thekaplanlab.github.io',
                 'annotation_start_point': 250,
                 'annotation_end_point': 490
             }
@@ -222,7 +222,7 @@ var alterations = [
 
 > Also, you might want to add a cross-reference link by adding it within the `note` after changing the link in `href` attribute:
 > 
-> `<a href="http://msabrowser.github.io" target="_blank">For details, visit here</a>`
+> `<a href="http://thekaplanlab.github.io" target="_blank">For details, visit here</a>`
 
 ##  Example Usages (Use Cases) of *MSABrowser*
 
@@ -269,7 +269,7 @@ We would be very happy to list your study here!
 
 
 ##  Contributing & Feedback
-MSABrowser is released as an open-source and web-based software under GNU General Public License, version 3.0 (GPLv3). The visualizer, documentation, all source code and examples are available on [https://msabrowser.github.io/](https://msabrowser.github.io/) and at GitHub repository [https://github.com/thekaplanlab/msabrowser](https://github.com/thekaplanlab/msabrowser).
+MSABrowser is released as an open-source and web-based software under GNU General Public License, version 3.0 (GPLv3). The visualizer, documentation, all source code and examples are available on [https://thekaplanlab.github.io/](https://thekaplanlab.github.io/) and at GitHub repository [https://github.com/thekaplanlab/msabrowser](https://github.com/thekaplanlab/msabrowser).
 
 Moreover, please do not hesitate to `open an issue via Github` if you have any suggestion or feedback.
 
