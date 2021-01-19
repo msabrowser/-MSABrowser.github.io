@@ -7,15 +7,15 @@
 - [ Requirements and Installation](#requirements-and-installation)
 - [ How to use *MSABrowser*?](#how-to-use-msabrowser)
 - [ Parameters & Examples for the Functions](#parameters--examples-for-the-functions)
-	- [ Color Schemas List](#color-schemas-list)
-	- [ Adding Annoations (Protein Domains) & Example](#adding-annoations-protein-domains--example)
-	- [ Adding Variations and Modifications & Example](#adding-variations-and-modifications--example)
+    - [ Color Schemas List](#color-schemas-list)
+    - [ Adding Annoations (Protein Domains) & Example](#adding-annoations-protein-domains--example)
+    - [ Adding Variations and Modifications & Example](#adding-variations-and-modifications--example)
 - [ Example Usages (Use Cases) of *MSABrowser*](#example-usages-use-cases-of-msabrowser)
-	- [ Evolutionary/Comparative Genomics Study](#evolutionarycomparative-genomics-study)
-	- [ NIPBL Protein Homologs Study](#nipbl-protein-homologs-study)
-	- [ COVID-19 / Virology Study](#covid-19--virology-study)
-	- [ Spike Proteins Example](#spike-proteins-example)
-	- [ Do you have another study which is not listed here?](#do-you-have-another-study-which-is-not-listed-here)
+    - [ Evolutionary/Comparative Genomics Study](#evolutionarycomparative-genomics-study)
+    - [ NIPBL Protein Homologs Study](#nipbl-protein-homologs-study)
+    - [ COVID-19 / Virology Study](#covid-19--virology-study)
+    - [ Spike Proteins Example](#spike-proteins-example)
+    - [ Do you have another study which is not listed here?](#do-you-have-another-study-which-is-not-listed-here)
 - [ Contributing & Feedback](#contributing--feedback)
 - [ Developers](#developers)
 - [ Citing the *MSABrowser*](#citing-the-msabrowser)
@@ -36,19 +36,19 @@ As seen in the figure, there are main parts in *MSABrowser*, which are represent
 
 - A: Annotation part
 
-	It represents the sequence intervals/annotations (such as protein domains) given by users. 
-	
+    It represents the sequence intervals/annotations (such as protein domains) given by users. 
+    
 - B: Notification part
 
-	It represents the modifications (with red asterisks) and position numbers.
+    It represents the modifications (with red asterisks) and position numbers.
 - C: Sequence alignment part
 
-	It represents the alignment data. Here, hovering a nucleotide or amino acid triggers a pop-up for showing the details of notes, annotations.
-	
+    It represents the alignment data. Here, hovering a nucleotide or amino acid triggers a pop-up for showing the details of notes, annotations.
+    
 - D: Search/options part
 
-	It enables you to search in the alignment data, download the PSA or MSA as FASTA format and Reset the browser.
-	
+    It enables you to search in the alignment data, download the PSA or MSA as FASTA format and Reset the browser.
+    
 ## Feature Comparison Table
 
 | Features / Tools | MSABrowser | Plotly Needle Plot | MSAViewer | Jalview 2 Desktop | JSAV | AlignmentViewer | ProViz | Wasabi |
@@ -82,13 +82,13 @@ As seen in the figure, there are main parts in *MSABrowser*, which are represent
 ##  How to use *MSABrowser*?
  - Create a directory and download any example listed below or use CDN links for required files on your page or clone the repository via Git using following command:
  
- 	`git clone https://github.com/msabrowser/msabrowser.git`
+    `git clone https://github.com/thekaplanlab/msabrowser.git`
 
 > CDN Links:
 >
-> JS: [https://cdn.jsdelivr.net/gh/msabrowser/msabrowser/javascript/msabrowser.js](https://cdn.jsdelivr.net/gh/msabrowser/msabrowser/javascript/msabrowser.js)
+> JS: [https://cdn.jsdelivr.net/gh/thekaplanlab/msabrowser/javascript/msabrowser.js](https://cdn.jsdelivr.net/gh/thekaplanlab/msabrowser/javascript/msabrowser.js)
 > 
-> CSS: [https://cdn.jsdelivr.net/gh/msabrowser/msabrowser/css/style.css](https://cdn.jsdelivr.net/gh/msabrowser/msabrowser/css/style.css)
+> CSS: [https://cdn.jsdelivr.net/gh/thekaplanlab/msabrowser/css/style.css](https://cdn.jsdelivr.net/gh/thekaplanlab/msabrowser/css/style.css)
 > 
 > You can directly import them into your HTML file!
 
@@ -146,44 +146,44 @@ Example for this:
 Here is the example use of `annotations` variable.
 ```
 var annotations = [
-	{
-		source: "SourceName1",
-		data: [
-			{
-				'annotation_id': 'AnnotationID',
-				'annotation_name': 'AnnotationName',
-				'annotation_external_link': 'https://msabrowser.github.io',
-				'annotation_start_point': 15,
-				'annotation_end_point': 290
-			},
-			{
-				'annotation_id': 'SecondAnnotationID',
-				'annotation_name': 'SecondAnnotationName',
-				'annotation_external_link': 'https://msabrowser.github.io',
-				'annotation_start_point': 450,
-				'annotation_end_point': 570
-			}
-		]
-	}, 
-	{
-		source: "SourceName2",
-		data: [
-			{
-				'annotation_id': 'AnnotationID',
-				'annotation_name': 'AnnotationName',
-				'annotation_external_link': 'https://msabrowser.github.io',
-				'annotation_start_point': 25,
-				'annotation_end_point': 160
-			},
-			{
-				'annotation_id': 'SecondAnnotationID',
-				'annotation_name': 'SecondAnnotationName',
-				'annotation_external_link': 'https://msabrowser.github.io',
-				'annotation_start_point': 250,
-				'annotation_end_point': 490
-			}
-		]
-	}
+    {
+        source: "SourceName1",
+        data: [
+            {
+                'annotation_id': 'AnnotationID',
+                'annotation_name': 'AnnotationName',
+                'annotation_external_link': 'https://msabrowser.github.io',
+                'annotation_start_point': 15,
+                'annotation_end_point': 290
+            },
+            {
+                'annotation_id': 'SecondAnnotationID',
+                'annotation_name': 'SecondAnnotationName',
+                'annotation_external_link': 'https://msabrowser.github.io',
+                'annotation_start_point': 450,
+                'annotation_end_point': 570
+            }
+        ]
+    }, 
+    {
+        source: "SourceName2",
+        data: [
+            {
+                'annotation_id': 'AnnotationID',
+                'annotation_name': 'AnnotationName',
+                'annotation_external_link': 'https://msabrowser.github.io',
+                'annotation_start_point': 25,
+                'annotation_end_point': 160
+            },
+            {
+                'annotation_id': 'SecondAnnotationID',
+                'annotation_name': 'SecondAnnotationName',
+                'annotation_external_link': 'https://msabrowser.github.io',
+                'annotation_start_point': 250,
+                'annotation_end_point': 490
+            }
+        ]
+    }
 ]
 ```
 
@@ -207,12 +207,12 @@ var annotations = [
 **Here is the example how to add a variation or modification:**
 ```
 var alterations = [
-	{
-		'sequenceIndex': 2, 
-		'position': 5, 
-		'note': 'M->A : Pathogenic and causes a disease X', 
-		'source': 'Surname et. al (2020)'
-	},
+    {
+        'sequenceIndex': 2, 
+        'position': 5, 
+        'note': 'M->A : Pathogenic and causes a disease X', 
+        'source': 'Surname et. al (2020)'
+    },
 ]
 ```
 
@@ -229,7 +229,7 @@ var alterations = [
 ###  Evolutionary/Comparative Genomics Study 
 In this example, human TUBA1A protein and its homologous proteins are aligned and human protein domains are added. Additionaly, some genetic variations are also included from different sources such as gnomAD and ClinVar. 
 
-> [Click here to reach *MSABrowser* example for Evolutionary/Comparative Genomics Study.](https://github.com/msabrowser/msabrowser/blob/master/examples/TUBA1A.html)
+> [Click here to reach *MSABrowser* example for Evolutionary/Comparative Genomics Study.](https://github.com/thekaplanlab/msabrowser/blob/master/examples/TUBA1A.html)
 
 <iframe height="640" style="width: 100%;" scrolling="no" title="MSABrowser | TUBA1A" src="https://codepen.io/bilginhalil/embed/NWGzgdy?height=640&theme-id=light&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/bilginhalil/pen/NWGzgdy'>MSABrowser | TUBA1A</a> by halil bilgin
@@ -240,7 +240,7 @@ In this example, human TUBA1A protein and its homologous proteins are aligned an
 In this example, human NIPBL protein and its homologous sequences are aligned and human sequence annotations are added.
 Additionaly, some genetic variations are also included from available sources.
 
-> [Click here to reach *MSABrowser* example for NIPBL Protein Homologs Study.](https://github.com/msabrowser/msabrowser/blob/master/examples/NIPBL.html)
+> [Click here to reach *MSABrowser* example for NIPBL Protein Homologs Study.](https://github.com/thekaplanlab/msabrowser/blob/master/examples/NIPBL.html)
 
 <iframe height="748" style="width: 100%;" scrolling="no" title="MSABrowser | NIPBL" src="https://codepen.io/bilginhalil/embed/bGVxJGY?height=748&theme-id=light&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
   See the Pen MSABrowser | NIPBL by halil bilgin @bilginhalil) on CodePen.</iframe>
@@ -248,7 +248,7 @@ Additionaly, some genetic variations are also included from available sources.
 ###  COVID-19 / Virology Study 
 In this example, some available SARS-CoV-2 sequences are aligned with default options of MUSCLE and their genetic variations received from [China National Center for Bioinformation 2019 Novel Coronavirus Resource (2019nCoVR)](https://bigd.big.ac.cn/ncov/) are added.
 
-> [Click here to reach *MSABrowser* example for COVID-19 / Virology Study.](https://github.com/msabrowser/msabrowser/blob/master/examples/SarsCov2.html)
+> [Click here to reach *MSABrowser* example for COVID-19 / Virology Study.](https://github.com/thekaplanlab/msabrowser/blob/master/examples/SarsCov2.html)
 
 <iframe height="565" style="width: 100%;" scrolling="no" title="MSABrowser | SARS - CoV-2 Example" src="https://codepen.io/bilginhalil/embed/QWjxgwa?height=565&theme-id=light&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/bilginhalil/pen/QWjxgwa'>MSABrowser | SARS - CoV-2 Example</a> by halil bilgin
@@ -258,7 +258,7 @@ In this example, some available SARS-CoV-2 sequences are aligned with default op
 ### Spike Proteins Example
 In this example, spike proteins are retrieved and aligned. Additionaly, some genetic variations and modifications are also added.
 
-> [Click here to reach *MSABrowser* example for Spike Proteins.](https://github.com/msabrowser/msabrowser/blob/master/examples/SpikeProteins.html)
+> [Click here to reach *MSABrowser* example for Spike Proteins.](https://github.com/thekaplanlab/msabrowser/blob/master/examples/SpikeProteins.html)
 
 <iframe height="614" style="width: 100%;" scrolling="no" title="MSABrowser | Spike Proteins" src="https://codepen.io/bilginhalil/embed/JjYBBGz?height=614&theme-id=light&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true"> See the Pen MSABrowser | Spike Proteins by halil bilgin @bilginhalil) on CodePen</iframe>
 
@@ -269,7 +269,7 @@ We would be very happy to list your study here!
 
 
 ##  Contributing & Feedback
-MSABrowser is released as an open-source and web-based software under GNU General Public License, version 3.0 (GPLv3). The visualizer, documentation, all source code and examples are available on [https://msabrowser.github.io/](https://msabrowser.github.io/) and at GitHub repository [https://github.com/msabrowser/MSABrowser](https://github.com/msabrowser/MSABrowser).
+MSABrowser is released as an open-source and web-based software under GNU General Public License, version 3.0 (GPLv3). The visualizer, documentation, all source code and examples are available on [https://msabrowser.github.io/](https://msabrowser.github.io/) and at GitHub repository [https://github.com/thekaplanlab/msabrowser](https://github.com/thekaplanlab/msabrowser).
 
 Moreover, please do not hesitate to `open an issue via Github` if you have any suggestion or feedback.
 
