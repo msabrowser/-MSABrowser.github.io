@@ -285,4 +285,5 @@ Academia: [Google Scholar Profile](https://scholar.google.com/citations?user=d5Z
 Academia: [Google Scholar Profile](https://scholar.google.com/citations?user=YFzvQQUAAAAJ&hl=en)**
 
 ##  Citing the *MSABrowser*
-Upcoming 
+
+Torun, F. M., Bilgin, H. I., & Kaplan, O. I. (2021). MSABrowser: dynamic and fast visualization of sequence alignments, variations, and annotations. doi:[10.1101/2021.04.05.426321](https://www.biorxiv.org/content/10.1101/2021.04.05.426321v1)
