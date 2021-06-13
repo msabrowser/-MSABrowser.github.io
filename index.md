@@ -8,7 +8,7 @@
 - [ How to use *MSABrowser*?](#how-to-use-msabrowser)
 - [ Parameters & Examples for the Functions](#parameters--examples-for-the-functions)
     - [ Color Schemas List](#color-schemas-list)
-    - [ Adding Annoations (Protein Domains) & Example](#adding-annoations-protein-domains--example)
+    - [ Adding Annotations (Protein Domains) & Example](#adding-annotations-protein-domains--example)
     - [ Adding Variations and Modifications & Example](#adding-variations-and-modifications--example)
 - [ Example Usages (Use Cases) of *MSABrowser*](#example-usages-use-cases-of-msabrowser)
     - [ Evolutionary/Comparative Genomics Study](#evolutionarycomparative-genomics-study)
@@ -136,7 +136,7 @@ Example for this:
 - `nucleotide`
 
 
-###  Adding Annoations (Protein Domains) & Example
+###  Adding Annotations (Protein Domains) & Example
 
 > You are able to visualize the protein domains above the sequence aligner in the annotation part.
 
