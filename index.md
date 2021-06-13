@@ -1,24 +1,25 @@
 # 🧬 MSABrowser
 **Table of Contents**
 
-- [ What is *MSABrowser* and the aim of this library?](#what-is-msabrowser-and-the-aim-of-this-library)
-- [ Screenshot](#screenshot)
-- [ Feature Comparison Table](#feature-comparison-table)
-- [ Requirements and Installation](#requirements-and-installation)
-- [ How to use *MSABrowser*?](#how-to-use-msabrowser)
-- [ Parameters & Examples for the Functions](#parameters--examples-for-the-functions)
-    - [ Color Schemas List](#color-schemas-list)
-    - [ Adding Annotations (Protein Domains) & Example](#adding-annotations-protein-domains--example)
-    - [ Adding Variations and Modifications & Example](#adding-variations-and-modifications--example)
-- [ Example Usages (Use Cases) of *MSABrowser*](#example-usages-use-cases-of-msabrowser)
-    - [ Evolutionary/Comparative Genomics Study](#evolutionarycomparative-genomics-study)
-    - [ NIPBL Protein Homologs Study](#nipbl-protein-homologs-study)
-    - [ COVID-19 / Virology Study](#covid-19--virology-study)
-    - [ Spike Proteins Example](#spike-proteins-example)
-    - [ Do you have another study which is not listed here?](#do-you-have-another-study-which-is-not-listed-here)
-- [ Contributing & Feedback](#contributing--feedback)
-- [ Developers](#developers)
-- [ Citing the *MSABrowser*](#citing-the-msabrowser)
+- [🧬 MSABrowser](#-msabrowser)
+  - [What is *MSABrowser* and the aim of this library?](#what-is-msabrowser-and-the-aim-of-this-library)
+  - [Screenshot](#screenshot)
+  - [Feature Comparison Table](#feature-comparison-table)
+  - [Requirements and Installation](#requirements-and-installation)
+  - [How to use *MSABrowser*?](#how-to-use-msabrowser)
+  - [Parameters & Examples for the Functions](#parameters--examples-for-the-functions)
+    - [Color Schemas List](#color-schemas-list)
+    - [Adding Annotations (Protein Domains) & Example](#adding-annotations-protein-domains--example)
+    - [Adding Variations and Modifications & Example](#adding-variations-and-modifications--example)
+  - [Example Usages (Use Cases) of *MSABrowser*](#example-usages-use-cases-of-msabrowser)
+    - [Evolutionary/Comparative Genomics Study](#evolutionarycomparative-genomics-study)
+    - [NIPBL Protein Homologs Study](#nipbl-protein-homologs-study)
+    - [COVID-19 / Virology Study](#covid-19--virology-study)
+    - [Spike Proteins Example](#spike-proteins-example)
+    - [Do you have another study which is not listed here?](#do-you-have-another-study-which-is-not-listed-here)
+  - [Contributing & Feedback](#contributing--feedback)
+  - [Developers](#developers)
+  - [Citing the *MSABrowser*](#citing-the-msabrowser)
 
 ---
 
@@ -112,8 +113,9 @@ As seen in the figure, there are main parts in *MSABrowser*, which are represent
 
 ##  Parameters & Examples for the Functions
 
+**Parameters for MSABrowser**
 
-| Options in the script | Description | Example |
+| Parameter | Description | Example |
 |-----------------------|---------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
 | id | *It defines the ID of the element where you place MSABrowser component.* |`<section id="MSABrowserDemo"></section>` |
 | fasta | *It refers a variable that holds your sequence alignment or the name of the file in FASTA format* | `sample_msa.txt` or `sample_msa.fasta` |
@@ -121,8 +123,15 @@ As seen in the figure, there are main parts in *MSABrowser*, which are represent
 | annotations  | *It refers a variable that holds your annotations such as protein domains.* | Please check the example below. |
 | alterations | *It serves for adding variations and modifications on the corresponding positions.* | Please check the example below. |
 | colorSchema  | *It defines the name of the color schema you would like to display.* | Please the check the list of color schemas below. |
-| scrollToPosition() | *It enables addressing a specific position in a species.* | Please, give the `sequenceIndex` and `position` into the `scrollToPosition(sequenceIndex, position)` function, respectively. |
-| export() | *It serves for downloading the alignment data. You can give a filename for the output into the function.* | Default name is `"MSA_export.fasta"`. |
+
+<br>
+
+**Functions for MSABrowser**
+
+| Function | Description | Example |
+|-----------------------|---------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
+| `scrollToPosition(sequenceIndex, position)` | *It enables addressing a specific position in a species.* | Please, specify the `sequenceIndex` according to the order of sequence in the alignment file and give the  `position` for the navigating. **The dashes/gaps should not be considered while counting the positions, in other words, the real position in sequence alone should be entered.**  |
+| `export("MSA_export.fasta")` | *It serves for downloading the alignment data. You can give a filename for the output into the function.* | Default name is `"MSA_export.fasta"`, might be changed always. |
 
 
 ###  Color Schemas List
