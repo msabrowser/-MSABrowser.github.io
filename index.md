@@ -130,7 +130,7 @@ As seen in the figure, there are main parts in *MSABrowser*, which are represent
 
 | Function | Description | Example |
 |-----------------------|---------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
-| `scrollToPosition(sequenceIndex, position)` | *It enables addressing a specific position in a species.* | Please, specify the `sequenceIndex` according to the order of sequence in the alignment file and give the  `position` for the navigating. **The dashes/gaps should not be considered while counting the positions, in other words, the real position in sequence alone should be entered.**  |
+| `scrollToPosition(sequenceIndex, position)` | *It enables addressing a specific position in a species.* | Please, specify the `sequenceIndex` according to the order of sequence in the alignment file and give the  `position` for the navigating. **The dashes/gaps should not be considered while counting the positions, in other words, the real position/residue number in sequence alone should be entered.**  |
 | `export("MSA_export.fasta")` | *It serves for downloading the alignment data. You can give a filename for the output into the function.* | Default name is `"MSA_export.fasta"`, might be changed always. |
 
 
@@ -207,6 +207,18 @@ var annotations = [
     }
 ]
 ```
+
+**Here is the details for use of `annotations` :**
+
+| Key | Description | Example |
+|---------------------------------------------------|--------------------------------------------------------|----------------------------------------------------------|
+| annotation_id | ID of the annotation/sequence interval to be shown in the annotations bar. | PF00091.25|
+| annotation_name | A name of the annotation can be provided. | Tubulin |
+| annotation_external_link | The link might be provided for referring the source of the annotation once it is clicked. | https://pfam.xfam.org/family/PF00091.25 |
+| annotation_start_point | It refers to starting point of the defined sequence interval. **The dashes/gaps in alignment should not be considered while counting the positions, in other words, the real position/residue number in sequence alone should be entered.**  | `3` should be provided if we start it from `"L"` within such a sequence: "MA---LKER--MA--R" |
+| annotation_end_point | It refers to end point of the defined sequence interval. **The dashes/gaps in alignment should not be considered while counting the positions, in other words, the real position/residue number in sequence alone should be entered.**  | `9` should be provided if we start it from `"R"` within such a sequence: "MA---LKER--MA--R" |
+
+
 
 ###  Adding Variations and Modifications & Example
 
