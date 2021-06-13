@@ -79,17 +79,30 @@ As seen in the figure, there are main parts in *MSABrowser*, which are represent
 *MSABrowser* is entirely developed in JavaScript and works on a web browser at any platform including Linux, Mac OS X and Windows systems without any installation.
 
 ##  How to use *MSABrowser*?
- - Create a directory and download any example listed below or use CDN links for required files on your page or clone the repository via Git using following command:
+ - Create a directory and download any example listed below or use CDN (Content Delivery Network) links for required files on your page or clone the repository via Git using following command:
  
     `git clone https://github.com/thekaplanlab/msabrowser.git`
 
-> CDN Links:
->
-> JS: [https://cdn.jsdelivr.net/gh/thekaplanlab/msabrowser/javascript/msabrowser.js](https://cdn.jsdelivr.net/gh/thekaplanlab/msabrowser/javascript/msabrowser.js)
-> 
-> CSS: [https://cdn.jsdelivr.net/gh/thekaplanlab/msabrowser/css/style.css](https://cdn.jsdelivr.net/gh/thekaplanlab/msabrowser/css/style.css)
-> 
-> You can directly import them into your HTML file!
+    **CDN Links:**
+
+    - JS: [https://cdn.jsdelivr.net/gh/thekaplanlab/msabrowser/javascript/msabrowser.js](https://cdn.jsdelivr.net/gh/thekaplanlab/msabrowser/javascript/msabrowser.js)
+
+    - CSS: [https://cdn.jsdelivr.net/gh/thekaplanlab/msabrowser/css/style.css](https://cdn.jsdelivr.net/gh/thekaplanlab/msabrowser/css/style.css)
+
+
+    > **NOTES for CDN:**
+    > 
+    > The CDN is used to minimize delays for fetching the required files (JS, CSS, or others) and for loading web page content in less time. 
+    > The links for CDN files should be integrated into `<head> </head>` tags using proper tags `<link type="text/css">` for CSS and `<script>` for JS. To see how it looks at the end, the following example or other case studies might be checked.
+    > [Click here to reach MSABrowser basic template to learn how these CDN files are used and to see how a basic example can be done.](https://github.com/thekaplanlab/msabrowser/blob/master/examples/template.html)
+    
+    <br>
+    
+    > **NOTES for Custom Styling:**
+    > 
+    > We develop MSABrowser and implement the features after taking a number of comments about to make user interface and user experience of the tool better.
+    > 
+    > However, one has always a chance to customize the CSS and JS files according to their needs. As an example, the shadow color of the nucleotides with an alteration might be updated or red asterisk might be converted to another proper sign in blue based on the requirements of the users.    
 
 - Then, place your pairwise or multiple sequence alignment (MSA) result file as **FASTA** format in the folder.
 
