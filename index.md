@@ -253,9 +253,16 @@ var alterations = [
 
 > In addition, if you state the `type` as `Alteration.Modification` (i.e. post-translational modification), it also will be notified as `red asterisk` in the viewer.
 
-> Also, you might want to add a cross-reference link by adding it within the `note` after changing the link in `href` attribute:
+> **NOTE**:
+> 
+> Also, you might want to add several other HTML tags such as `a`, `div`, `p`, or `img` into the `notes` section of an alteration to provide more detail about your variation or modification. 
+> 
+> For instance, cross-reference link by adding it within the `note` after changing the link in `href` attribute:
 > 
 > `<a href="http://thekaplanlab.github.io" target="_blank">For details, visit here</a>`
+>
+> Moreover, use of other tags (`div`, `p`, and `img` in addition `a`) is provided as an example in the template file. [Please click here to reach MSABrowser basic template to learn how you other HTML tags are used and to see how a basic example can be done.](https://github.com/thekaplanlab/msabrowser/blob/master/examples/template.html)
+
 
 ##  Example Usages (Use Cases) of *MSABrowser*
 
