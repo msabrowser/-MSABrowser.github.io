@@ -306,11 +306,7 @@ In this example, spike proteins are retrieved and aligned. Additionaly, some gen
 In this example, we created a FASTA file with 75 sequences each have more than 75000 amino acids. This is to show the power of our visualization tool. It works smoothly even if the FASTA file is huge.
 
 > [Click here to reach *MSABrowser* example for Simulated fasta.](https://github.com/thekaplanlab/msabrowser/blob/master/examples/Simulated.html)
-
-<iframe height="239" style="width: 100%;" scrolling="no" title="MSABrowser | Simulated" src="https://codepen.io/bilginhalil/embed/xxqogqp?height=239&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/bilginhalil/pen/xxqogqp'>MSABrowser | Simulated</a> by halil bilgin
-  (<a href='https://codepen.io/bilginhalil'>@bilginhalil</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
+<iframe height="614" style="width: 100%;" scrolling="no" title="MSABrowser | Spike Proteins" src="https://codepen.io/bilginhalil/embed/xxqogqp?height=614&theme-id=light&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true"> See the Pen MSABrowser | Spike Proteins by halil bilgin @bilginhalil) on CodePen</iframe>
 
 ###  Do you have another study which is not listed here?
 Please do not hesitate to [contact us](#developers) for adding your study! 
