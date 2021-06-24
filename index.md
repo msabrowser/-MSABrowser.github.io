@@ -1,9 +1,14 @@
+![MSABrowser Logo](https://user-images.githubusercontent.com/65191506/81839302-06123400-9550-11ea-92d2-ac904ccd32c6.png)
+
+---
+
 # 🧬 MSABrowser
 **Table of Contents**
 
 - [🧬 MSABrowser](#-msabrowser)
   - [What is *MSABrowser* and the aim of this library?](#what-is-msabrowser-and-the-aim-of-this-library)
   - [Screenshot](#screenshot)
+  - [Citing the *MSABrowser*](#citing-the-msabrowser)
   - [Feature Comparison Table](#feature-comparison-table)
   - [Requirements and Installation](#requirements-and-installation)
   - [How to use *MSABrowser*?](#how-to-use-msabrowser)
@@ -16,10 +21,10 @@
     - [NIPBL Protein Homologs Study](#nipbl-protein-homologs-study)
     - [COVID-19 / Virology Study](#covid-19--virology-study)
     - [Spike Proteins Example](#spike-proteins-example)
+    - [Simulated FASTA Example](#simulated-fasta-example)
     - [Do you have another study which is not listed here?](#do-you-have-another-study-which-is-not-listed-here)
   - [Contributing & Feedback](#contributing--feedback)
   - [Developers](#developers)
-  - [Citing the *MSABrowser*](#citing-the-msabrowser)
 
 ---
 
@@ -50,31 +55,36 @@ As seen in the figure, there are main parts in *MSABrowser*, which are represent
 
     It enables you to search in the alignment data, download the PSA or MSA as FASTA format and Reset the browser.
     
+
+##  Citing the *MSABrowser*
+
+Torun, F. M., Bilgin, H. I., & Kaplan, O. I. (2021). MSABrowser: dynamic and fast visualization of sequence alignments, variations, and annotations. doi:[10.1101/2021.04.05.426321](https://www.biorxiv.org/content/10.1101/2021.04.05.426321v1)
+    
 ## Feature Comparison Table
 
-| Features / Tools | MSABrowser | Plotly Needle Plot | AlignmentViewer | MSAViewer | ProViz | Wasabi | JavaScript Sequence Alignment Viewer (JSAV) |
-|-|-|-|-|-|-|-|-|
-| OVERALL |  |  |  |  |  |  |  |
-| Publication Date | April 2021 | 2019 | 22 February 2018 | 13 July 2016 | 16 April 2016 | 03 December 2015 | 23 October 2014 |
-| Technology | JavaScript | JavaScript, Python | JavaScript | JavaScript | JavaScript | JavaScript, Python | JavaScript |
-| Open-source code | Available | Available | Available | Available | Available | Available | Available |
-| Open-source entity | https://github.com/thekaplanlab/msabrowser | https://github.com/plotly/dash-bio | https://github.com/sanderlab/alignmentviewer | https://github.com/wilzbach/msa | https://bitbucket.org/daveylab/proviz/ | https://github.com/veidenberg/wasabi | https://github.com/AndrewCRMartin/JSAV/ |
-| Embeddable component to a website | Available | Available | Not available | Available | Not available | Not available | Available |
-| VISUALIZABLE DATA SOURCES |  |  |  |  |  |  |  |
-| MSA/PSA data source | Fasta | Not available | Fasta, Stockholm | Fasta, Clustal | Fasta, UniProt Data Retrieving | Fasta, Clustal, Ensembl Data Retrieving, NEXUS, Phylip | Fasta |
-| Alignment data export | Fasta, Image | Fasta, NEXUS, Phylip | Fasta, Stockholm | Fasta, Image | Available | Fasta, NEXUS, Phylip | Fasta |
-| Variations / PTMs / Modifications | JSON | JSON | Not available | Not available | Automatic retrieval | Not available | Not available |
-| Annotations (Domains/Sequence intervals) | JSON | JSON | Not available | GFF | Automatic retrieval | Not available | Not available |
-| Sequence annotation formats | JSON | Not available | Tab separated text file | JalView and GFFv3 | Automatic retrieval | Not available | Not available |
-| Phylogenetic tree data | Not available | Not available | Not available | Newick | Not available | Newick, NEXUS, Ensembl Data Retrieving | Not available |
-| USER INTERFACE & EXPERIENCE |  |  |  |  |  |  |  |
-| Direct jumping to a specific position (i.e.residue) | Available | Available | Not available | Available | Not available | Not available | Not available |
-| Addressing a specific position in a sequence (i.e. species) | Available | Not available | Not available | Not available | Not available | Not available | Not available |
-| Searching a motif in the sequence(s) | Not available | Not available | Not available | Available | Available | Not available | Not available |
-| Change among different color schemas | Available | Not available | Not available | Available | Not available | Available | Available |
-| Removing sequence(s) | Available | Not available | Available | Available | Available | Available | Available |
-| Generating consensus | Available | Not available | Available | Available | Not available | Not available | Not available |
-| Linking the identifiers to the resources | Ensembl, UniProtKB, NCBI, Pfam | Not available | UniProtKB, Pfam | UniProtKB, GenBank | UniProtKB | Not available | Not available |
+| Features / Tools | MSABrowser | Plotly Needle Plot | AlignmentViewer | MSAViewer | ProViz | Wasabi | JavaScript Sequence Alignment Viewer (JSAV) | JalView Version 2 |
+|-|-|-|-|-|-|-|-|-|
+| OVERALL |  |  |  |  |  |  |  |  |
+| Publication Date | April 2021 | 2019 | 22 February 2018 | 13 July 2016 | 16 April 2016 | 03 December 2015 | 23 October 2014 | 16 January 2009 |
+| Technology | JavaScript | JavaScript, Python | JavaScript | JavaScript | JavaScript | JavaScript, Python | JavaScript | Java |
+| Open-source code | Available | Available | Available | Available | Available | Available | Available | Available |
+| Open-source entity | https://github.com/thekaplanlab/msabrowser | https://github.com/plotly/dash-bio | https://github.com/sanderlab/alignmentviewer | https://github.com/wilzbach/msa | https://bitbucket.org/daveylab/proviz/ | https://github.com/veidenberg/wasabi | https://github.com/AndrewCRMartin/JSAV/ | https://source.jalview.org/crucible/browse/jalview |
+| Embeddable component to a website | Available | Available | Not available | Available | Not available | Not available | Available | Not available |
+| VISUALIZABLE DATA SOURCES |  |  |  |  |  |  |  |  |
+| MSA/PSA data source | Fasta | Not available | Fasta, Stockholm | Fasta, Clustal | Fasta, UniProt Data Retrieving | Fasta, Clustal, Ensembl Data Retrieving, NEXUS, Phylip | Fasta | Fasta, Clustal, Stockholm, Phylip |
+| Alignment data export | Fasta, Image | Fasta, NEXUS, Phylip | Fasta, Stockholm | Fasta, Image | Available | Fasta, NEXUS, Phylip | Fasta | Fasta, Clustal, Stockholm, Phylip, Image |
+| Variations / PTMs / Modifications | Available | Available | Not available | Not available | Automatic retrieval | Not available | Not available | Available, Automatic retrieval |
+| Annotations (Domains/Sequence intervals) | JSON | JSON | Not available | GFF | Automatic retrieval | Not available | Not available | GFF |
+| Sequence annotation formats | JSON | Not available | Tab separated text file | JalView and GFFv3 | Automatic retrieval | Not available | Not available | GFF |
+| Phylogenetic tree data | Not available | Not available | Not available | Newick | Not available | Newick, NEXUS, Ensembl Data Retrieving | Not available | Newick |
+| USER INTERFACE & EXPERIENCE |  |  |  |  |  |  |  |  |
+| Direct jumping to a specific position (i.e.residue) | Available | Available | Not available | Available | Not available | Not available | Not available | Not available |
+| Addressing a specific position in a sequence (i.e. species) | Available | Not available | Not available | Not available | Not available | Not available | Not available | Not available |
+| Searching a motif in the sequence(s) | Not available | Not available | Not available | Available | Available | Not available | Not available | Available |
+| Change among different color schemas | Available | Not available | Not available | Available | Not available | Available | Available | Available |
+| Removing sequence(s) | Available | Not available | Available | Available | Available | Available | Available | Available |
+| Generating consensus | Available | Not available | Available | Available | Not available | Not available | Not available | Available |
+| Linking the identifiers to the resources | Ensembl, UniProtKB, NCBI, Pfam | Not available | UniProtKB, Pfam | UniProtKB, GenBank | UniProtKB | Not available | Not available | EMBL-EBI Search |
 
 ##  Requirements and Installation
 *MSABrowser* is entirely developed in JavaScript and works on a web browser at any platform including Linux, Mac OS X and Windows systems without any installation.
@@ -315,7 +325,7 @@ We would be very happy to list your study here!
 
 
 ##  Contributing & Feedback
-MSABrowser is released as an open-source and web-based software under GNU General Public License, version 3.0 (GPLv3). The visualizer, documentation, all source code and examples are available on [https://thekaplanlab.github.io/](https://thekaplanlab.github.io/) and at GitHub repository [https://github.com/thekaplanlab/msabrowser](https://github.com/thekaplanlab/msabrowser).
+MSABrowser is released as an open-source and web-based software under MIT license. The visualizer, documentation, all source code and examples are available on [https://thekaplanlab.github.io/](https://thekaplanlab.github.io/) and at GitHub repository [https://github.com/thekaplanlab/msabrowser](https://github.com/thekaplanlab/msabrowser).
 
 Moreover, please do not hesitate to `open an issue via Github` if you have any suggestion or feedback.
 
@@ -331,6 +341,3 @@ Academia: [Google Scholar Profile](https://scholar.google.com/citations?user=d5Z
 **Oktay I. Kaplan |  [oktaykaplan@gmail.com](mailto:oktaykaplan@gmail.com) | 
 Academia: [Google Scholar Profile](https://scholar.google.com/citations?user=YFzvQQUAAAAJ&hl=en)**
 
-##  Citing the *MSABrowser*
-
-Torun, F. M., Bilgin, H. I., & Kaplan, O. I. (2021). MSABrowser: dynamic and fast visualization of sequence alignments, variations, and annotations. doi:[10.1101/2021.04.05.426321](https://www.biorxiv.org/content/10.1101/2021.04.05.426321v1)
