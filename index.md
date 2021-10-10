@@ -36,29 +36,55 @@ MSABrowser is developed as a new JavaScript tool with an ultimate goal of dynami
 For the nucleotides or amino acids that are annotated, one can hover them for triggering a pop-up that shows the details of variations and modifications or any other provided notes for the position. 
 
 ## Screenshot
-![MSABrowser](https://user-images.githubusercontent.com/65191506/85941261-876c2d00-b92a-11ea-8366-30a2bcd464c9.png)
 
-As seen in the figure, there are main parts in *MSABrowser*, which are represented as A, B, C and D.
+<br>
+1. MSABrowser Overview
 
-- A: Annotation part
+  ![MSABrowser Screenshots](https://user-images.githubusercontent.com/49681382/136694235-509b6f32-423f-4ecd-aa9f-9b3089a8bdee.jpg)
 
-    It represents the sequence intervals/annotations (such as protein domains) given by users. 
-    
-- B: Notification part
+  <details>
+    <summary>An overview of the MSABrowser tool. (Click here to see description for the image)</summary>
+    MSA for homologous proteins of the human TUBA1A is depicted in this figure, along with genetic variations on the corresponding positions on sequences and associated intervals such as protein domains. (A) 
+  
+  (I) The annotation part represents the specified intervals for the sequence and in this example, it is used for illustrating the positions of the protein domains with cross-link features that enable users to locate the website or page of the original database or article. 
+  
+  (II) The notification part shows any type of defined modifications as a red asterisk above the sequence per position and displays the searched position in a species above the alignments. 
+  
+  (III) The sequence alignment part contains the imported alignment data with the previously selected colour scheme. Also, rounded (circle) positions indicate that at least one genetic variation or modification exists in this position. A rectangular white background pop-up box appears when the mouse hovers the specific position in the sequence and the genetic variations and modifications are listed in this pop-up box. On the bottom, an auto-generated ‘Consensus’ sequence is displayed. On the left side, species names contain cross-reference links for referring to the dedicated page of the sequence according to its protein identifier such as a UniProt number and the near-white ‘x’ button enables users to hide the sequence from the alignment together with its identifier. 
+  
+  (IV) A position in the sequence of any species listed in the alignment can be searched and the sequence alignment data in FASTA format can be downloaded with the blue button and visualization of alignment data can be exported as PNG format. Also, with the green ‘Reset’ button, it is available to reload the viewer. 
+  
+  (B) Visualization of MSAs of six virus spike proteins with the MSABrowser tool. The positions with the annotations are marked in a circle, while the positions without annotations are displayed in a square. The full MSA comparisons with annotations can be found at our dedicated GitHub site https://thekaplanlab.github.io/ 
+  
+  (C) Shown is the display of orthologous variants (OrthoVars), the positions of amino acid position or nucleotide, or PTMs with the programmable notification part of MSABrowser
+  </details>
 
-    It represents the modifications (with red asterisks) and position numbers.
-- C: Sequence alignment part
+<br>
 
-    It represents the alignment data. Here, hovering a nucleotide or amino acid triggers a pop-up for showing the details of notes, annotations.
-    
-- D: Search/options part
+2. MSABrowser 
+  
+  ![MSABrowser Comparison](https://user-images.githubusercontent.com/49681382/136694363-816f4c27-a969-4601-878c-5036c9dfecad.jpg)
 
-    It enables you to search in the alignment data, download the PSA or MSA as FASTA format and Reset the browser.
-    
+  <details>
+    <summary>Comparison of MSA visualizers. (Click here to see description for the image)</summary>
+Comparison of MSA visualizers. The MSA of different genomes of the severe acute respiratory syndrome coronavirus 2 isolates (SARS-CoV-2: MT123293, MT152824, MT252708, MN988713 and MT039888) was created, followed by visualization with separate MSA viewers. 
+  
+  (A) Shown is the MSA visualization with MSABrowser, which enables the addition of annotations (e.g. domains and notes) on top of the MSA. MSABrowser allows users to incorporate variant-specific annotations (missense variation, disease associations, variant ID, allele frequency, etc.). A pop-up will show up when users click on the circled amino acid or nucleotide position to display the annotations. Shown is a missense variation (G6537T) in SARS-CoV, an example of a particular annotation of a nucleotide position, MSABrowser enables users to remove the desired sequence by clicking the X button which appears in the far left of each line. Users can look up positions, download the FASTA and save the MSA as PNG. 
+  
+  (B) Shown is MSAViewer tool on the same alignment as in A. Users can scroll to the left and right to see the rest of MSA. When the user clicks on a position, the amino acid is highlighted with a red square as in the position 88. 
+  
+  (C) Shown is JSAV. It is possible to sort and delete sequences, add new sequences, change the colour schema and export FASTA with the buttons listed below the MSA. 
+  
+  (D) Shown is Wasabi in which zoom in and zoom out options are enabled and scrolling is necessary to see the rest of the sequence. 
+  
+  (E) Shows Proviz where users are able to search for a motif, switch to full screen, export the MSA and share it as a URL using the buttons located in the top right corner. 
+  
+  (F) Shown is AlignmentViewer. For each sequence in the alignment, gaps ratio and identification ratio to the reference sequence is provided. Gaps and conservation per position are also shown above the MSA
+</details>
 
 ##  Citing the *MSABrowser*
 
-Furkan M Torun, Halil I Bilgin, Oktay I Kaplan, MSABrowser: dynamic and fast visualization of sequence alignments, variations, and annotations, Bioinformatics Advances, 2021;, vbab009, https://doi.org/10.1093/bioadv/vbab009
+Furkan M Torun, Halil I Bilgin, Oktay I Kaplan, MSABrowser: dynamic and fast visualization of sequence alignments, variations and annotations, Bioinformatics Advances, Volume 1, Issue 1, 2021, vbab009, [https://doi.org/10.1093/bioadv/vbab009](https://doi.org/10.1093/bioadv/vbab009)
     
 ## Feature Comparison Table
 
