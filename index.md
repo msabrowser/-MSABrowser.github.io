@@ -43,7 +43,7 @@ For the nucleotides or amino acids that are annotated, one can hover them for tr
   ![MSABrowser Screenshots](https://user-images.githubusercontent.com/49681382/136694235-509b6f32-423f-4ecd-aa9f-9b3089a8bdee.jpg)
 
   <details>
-    <summary>An overview of the MSABrowser tool. (Click here to see description for the image)</summary>
+    <summary>➤ An overview of the MSABrowser tool. (Click here to see the full description for the image)</summary>
     MSA for homologous proteins of the human TUBA1A is depicted in this figure, along with genetic variations on the corresponding positions on sequences and associated intervals such as protein domains. (A) 
   
   (I) The annotation part represents the specified intervals for the sequence and in this example, it is used for illustrating the positions of the protein domains with cross-link features that enable users to locate the website or page of the original database or article. 
@@ -66,7 +66,7 @@ For the nucleotides or amino acids that are annotated, one can hover them for tr
   ![MSABrowser Comparison](https://user-images.githubusercontent.com/49681382/136694363-816f4c27-a969-4601-878c-5036c9dfecad.jpg)
 
   <details>
-    <summary>Comparison of MSA visualizers. (Click here to see description for the image)</summary>
+    <summary>➤ Comparison of MSA visualizers. (Click here to see the full description for the image)</summary>
 Comparison of MSA visualizers. The MSA of different genomes of the severe acute respiratory syndrome coronavirus 2 isolates (SARS-CoV-2: MT123293, MT152824, MT252708, MN988713 and MT039888) was created, followed by visualization with separate MSA viewers. 
   
   (A) Shown is the MSA visualization with MSABrowser, which enables the addition of annotations (e.g. domains and notes) on top of the MSA. MSABrowser allows users to incorporate variant-specific annotations (missense variation, disease associations, variant ID, allele frequency, etc.). A pop-up will show up when users click on the circled amino acid or nucleotide position to display the annotations. Shown is a missense variation (G6537T) in SARS-CoV, an example of a particular annotation of a nucleotide position, MSABrowser enables users to remove the desired sequence by clicking the X button which appears in the far left of each line. Users can look up positions, download the FASTA and save the MSA as PNG. 
