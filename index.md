@@ -254,8 +254,8 @@ var annotations = [
 | annotation_id | ID of the annotation/sequence interval to be shown in the annotations bar. | PF00091.25|
 | annotation_name | A name of the annotation can be provided. | Tubulin |
 | annotation_external_link | The link might be provided for referring the source of the annotation once it is clicked. | https://pfam.xfam.org/family/PF00091.25 |
-| annotation_start_point | It refers to starting point of the defined sequence interval. **The dashes/gaps in alignment should not be considered while counting the positions, in other words, the real position/residue number in sequence alone should be entered.**  | `3` should be provided if we start it from `"L"` within such a sequence: "MA---LKER--MA--R" |
-| annotation_end_point | It refers to end point of the defined sequence interval. **The dashes/gaps in alignment should not be considered while counting the positions, in other words, the real position/residue number in sequence alone should be entered.**  | `9` should be provided if we start it from `"R"` within such a sequence: "MA---LKER--MA--R" |
+| annotation_start_point | It refers to starting point of the defined sequence interval. **The dashes/gaps in alignment should not be considered while counting the positions, in other words, the real position/residue number in sequence alone should be entered.**  | `3` should be provided if we start it from `"L"` within such a sequence: "MA--LKER--MA--R" |
+| annotation_end_point | It refers to end point of the defined sequence interval. **The dashes/gaps in alignment should not be considered while counting the positions, in other words, the real position/residue number in sequence alone should be entered.**  | `9` should be provided if we start it from `"R"` within such a sequence: "MA--LKER--MA--R" |
 
 
 
@@ -268,10 +268,10 @@ var annotations = [
 
 | Key | Description | Example |
 |---------------------------------------------------|--------------------------------------------------------|----------------------------------------------------------|
-| sequenceIndex | The order of the species in the sequence alignment | 1 |
-| position | The (real) position of the amino acid in the protein.* | 5 |
-| note | The annotation part for this position. | M->A : Pathogenic and causes a disease with a name of X. |
-| source | The source of the information. | Surname et. al (2020) |
+| sequenceIndex | *The order of the sequence in the alignment file.* | 1 |
+| position | *The (real) position of the nucleotide or amino acid in the protein.* | 5 |
+| note | *The annotation part for this position.* | M->A : Pathogenic and causes a disease with a name of X. |
+| source | *The source of the information.* | Surname et. al (2020) |
 | type | *The type of the alteration: Variation or modification* | If it is modficiation, state as `Alteration.Modification`. |
 
 
