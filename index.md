@@ -116,9 +116,12 @@ Furkan M Torun, Halil I Bilgin, Oktay I Kaplan, MSABrowser: dynamic and fast vis
 *MSABrowser* is entirely developed in JavaScript and works on a web browser at any platform including Linux, Mac OS X and Windows systems without any installation.
 
 ##  How to use *MSABrowser*?
- - Create a directory and download any example listed below or use CDN (Content Delivery Network) links for required files on your page or clone the repository via Git using following command:
- 
-    `git clone https://github.com/thekaplanlab/msabrowser.git`
+
+- 1: Fetch the required JS and CSS files for MSABrowser library. There are 3 ways for this:
+  - 1.1 (Quick start): Download any example listed on this page or from [`examples directory in the repository`](https://github.com/thekaplanlab/msabrowser/tree/master/examples)
+  - 1.2: Clone the repository via Git using following command: `git clone https://github.com/thekaplanlab/msabrowser.git`
+  - 1.3: Use CDN (Content Delivery Network) links for required files on your page
+    - 1.3.1: [Click here to reach MSABrowser basic template to learn how these CDN files are used and to see how a basic example can be done.](https://github.com/thekaplanlab/msabrowser/blob/master/examples/template.html)  
 
     **CDN Links:**
 
@@ -130,10 +133,10 @@ Furkan M Torun, Halil I Bilgin, Oktay I Kaplan, MSABrowser: dynamic and fast vis
     > **NOTES for CDN:**
     > 
     > The CDN is used to minimize delays for fetching the required files (JS, CSS, or others) and for loading web page content in less time. 
+    > 
     > The links for CDN files should be integrated into `<head> </head>` tags using proper tags `<link type="text/css">` for CSS and `<script>` for JS. To see how it looks at the end, the following example or other case studies might be checked.
+    > 
     > [Click here to reach MSABrowser basic template to learn how these CDN files are used and to see how a basic example can be done.](https://github.com/thekaplanlab/msabrowser/blob/master/examples/template.html)
-    
-    <br>
     
     > **NOTES for Custom Styling:**
     > 
@@ -141,11 +144,11 @@ Furkan M Torun, Halil I Bilgin, Oktay I Kaplan, MSABrowser: dynamic and fast vis
     > 
     > However, one has always a chance to customize the CSS and JS files according to their needs. As an example, the shadow color of the nucleotides with an alteration might be updated or red asterisk might be converted to another proper sign in blue based on the requirements of the users.    
 
-- Then, place your pairwise or multiple sequence alignment (MSA) result file as **FASTA** format in the folder.
+- 2: Then, place your pairwise or multiple sequence alignment (MSA) result file as **FASTA** format in the folder.
 
-- Afterwards, set your parameters and define the title, specify the annotations such as protein domains and add your variations. 
+- 3: Afterwards, set your parameters and define the title, specify the annotations such as protein domains and add your variations in the HTML file. 
 
-- It's ready to use and visualize now! 
+- 4: It's ready to use and visualize now! 
 
 ##  Parameters & Examples for the Functions
 
